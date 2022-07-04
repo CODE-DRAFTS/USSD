@@ -11,7 +11,7 @@ class UssdInfo(BaseModel):
     cost: Optional[str]                     #cost of USSD session
     durationInMillis: Optional[str]
     hopsCount: Optional[str]                #steps user passedduring ussd session
-    input: Optional[str]                             #input entered by user separeted by *
+    input: Optional[int]                             #input entered by user separeted by *
     lastAppResponse: Optional[str]
     errorMessage: Optional[str]
     text:Optional[str]=''                               #textual input
